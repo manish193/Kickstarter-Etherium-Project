@@ -1,0 +1,28 @@
+{
+  "name": "kickstart",
+  "version": "2.0.0",
+  "description": "Kickstart Etherium Project",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Owan Hunte",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.2",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "solc": "^0.8.6",
+    "web3": "^1.4.0"
+  }
+}
